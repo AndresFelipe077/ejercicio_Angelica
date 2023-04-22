@@ -49,6 +49,8 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  width: 100%;
 }
 
 .fila-imagenes {
@@ -57,6 +59,8 @@ body{
   justify-content: space-between;
   margin-bottom: 20px;
   flex-wrap: wrap;
+  
+
 }
 
 .imagen {
@@ -64,6 +68,10 @@ body{
   width: calc((100% / 2) - 20px);
   margin-bottom: 20px;
   overflow: hidden;
+  margin: -10px;
+  height: 700px;
+ 
+
 }
 
 .imagen img {
@@ -71,6 +79,7 @@ body{
   height: auto;
   display: block;
   transition: transform 0.5s ease-in-out;
+  
 }
 
 .imagen:hover img {
@@ -82,7 +91,7 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.8);
+color: #ffffff;
   padding: 10px;
   font-size: 20px;
   text-align: center;
@@ -90,7 +99,7 @@ body{
   transition: opacity 0.3s ease-in-out;
 }
 
-.imagen:hover .nombre {
+.imagen .nombre {
   opacity: 1;
 }
 
@@ -99,11 +108,11 @@ body{
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
   text-align: center;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+  color: #ffffff;
 }
 
 .mas-informacion p {
@@ -120,6 +129,6 @@ body{
   margin-left: 5px;
 }
 
-.imagen:hover .mas-informacion {
+.imagen .mas-informacion {
   opacity: 1;
 }
