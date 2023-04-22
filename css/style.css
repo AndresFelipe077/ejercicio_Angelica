@@ -57,5 +57,17 @@ body{
   margin-left: 50% !important;
 }
 
+.img{
+  height: 700px !important;
+}
 
+.img-carousel{
+  height: 450px;
+  width: 100%;
+}
+
+#carouselExampleCaptions2
+{
+  margin: 30px;
+}
 
