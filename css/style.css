@@ -42,3 +42,20 @@ body{
   opacity:0;
   transition:ease-in-out 0.5s;
 }
+
+.navbar {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.Header__logo__39GNG28Y
+{
+  margin: 2px !important;
+  margin-left: 50% !important;
+}
+
+
+
