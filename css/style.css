@@ -223,3 +223,14 @@ footer{
 .modal-right .modal-content {
   border-radius: 0 4px 4px 0;
 }
+
+.shell{
+  background-color: rgb(26, 25, 25);
+  background: rgb(26, 25, 25);
+}
+
+.img-shell
+{
+  margin:auto;
+  margin-left: 50%;
+}
