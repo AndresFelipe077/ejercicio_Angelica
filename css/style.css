@@ -21,6 +21,7 @@ body{
 }
 
 
+
 /*Splash Screen*/
 .intro{
   position:fixed;
@@ -60,6 +61,123 @@ body{
   transition:ease-in-out 0.5s;
 }
 
+
+/* Estilos para las imágenes */
+.contenedor-imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+background-color: rgb(26, 25, 25);
+  width: 100%;
+}
+
+.fila-imagenes {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  
+
+}
+
+.imagen1 {
+  position: relative;
+ display: flex;
+  margin-bottom: 20px;
+  overflow: hidden;
+  margin: -10px 0px ;
+  height: 510px;
+  
+
+}
+
+.imagen1 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.9s ease-in-out;
+  
+}
+
+.imagen1:hover img {
+  transform: scale(1.08);
+}
+
+.nombre {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  color: #ffffff;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.nombrep {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  color: #ffffff;
+  padding: 10px;
+  font-size: 20px;
+  opacity: 0;
+ 
+}
+.imagen1 .nombrep{
+  opacity: 1; 
+}
+
+.imagen1 .nombre {
+  opacity: 1;
+}
+
+.mas-informacion {
+  position: absolute;
+  left: 50%;
+  /* transform: translateX(-50% ); */
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  color: #ffffff;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, 60%);
+  font-size: 20px;
+  transition: opacity 0.3s ease-in-out
+}
+
+.mas-informacion p {
+  margin: 0;
+}
+
+.flecha {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-top:  2px solid #ffffff;
+  border-right: 2px solid #fffafa;
+  align-items: center;
+  margin-left: 30px;
+  border-radius: 100%;
+  transform: translate(-50%);
+
+}
+
+
+
+.flecha:hover {
+  border-top: 2px solid #cd1a1a;
+  border-right: 2px solid #d11212;
+}
+
+.imagen1 .mas-informacion {
+  opacity: 1;
+}
 .navbar {
   position: absolute !important;
   top: 0;
