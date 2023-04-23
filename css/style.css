@@ -88,7 +88,7 @@ background-color: rgb(26, 25, 25);
   overflow: hidden;
   margin: -10px 0px ;
   height: 510px;
-  
+  width: 100%;
 
 }
 
@@ -96,7 +96,7 @@ background-color: rgb(26, 25, 25);
   width: 100%;
   height: auto;
   display: block;
-  transition: transform 0.9s ease-in-out;
+  transition: transform 2s ease-in-out;
   
 }
 
@@ -196,6 +196,10 @@ background-color: rgb(26, 25, 25);
   height: 700px !important;
 }
 
+.imagenV{
+  width: 100% !important;
+}
+
 .img-carousel{
   height: 450px;
   width: 100%;
@@ -206,3 +210,16 @@ background-color: rgb(26, 25, 25);
   margin: 30px;
 }
 
+footer{
+  background-color: rgb(26, 25, 25);
+}
+
+.modal-right .modal-dialog {
+  margin-right: 0;
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+}
+
+.modal-right .modal-content {
+  border-radius: 0 4px 4px 0;
+}
